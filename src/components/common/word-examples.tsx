@@ -13,7 +13,7 @@ const examples = [
 
 export const WordExamples: FC<Props> = ({ className = `` }) => {
   return (
-    <Card>
+    <Card className={className}>
       <CardHeader>
         <CardTitle className="flex items-center gap-2 text-blue-900">
           <BookOpen className="h-5 w-5" />
